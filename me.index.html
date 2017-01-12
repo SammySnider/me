@@ -144,6 +144,58 @@ input, select {
 				margin: 0px;
 			}
 
+			nav {
+
+  			width: 100%;
+
+  			margin: 20px 0; }
+
+ 			nav ul {
+
+  			list-style: none;
+
+  			overflow: hidden;
+
+  	/*		margin: 0;
+
+  			padding: 0; }   */
+			}
+
+  		nav ul li {
+
+  			float: left;  
+
+  			width: 33%;
+
+  			}
+
+			nav ul li a {
+
+				text-align: center;
+
+  			padding: 8px 0;
+
+  			display: block;
+
+  			width: 100%; 
+
+  			background: #cdeb8e; 
+
+  			  background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
+
+  background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C, IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
+
+  		}
+
+
 			p{
 				color: white;
 				font-family: 'Helvetica Neue', Helvetica;
@@ -173,7 +225,7 @@ input, select {
  		    <ul>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact Info</a></li>
-          <li><a href="skills.html">Course history, skills and interests</a></li>
+          <li><a href="skills.html">Course history + skills</a></li>
         </ul>
       </nav>
 
@@ -213,8 +265,8 @@ input, select {
 
 	<script>
 
-	$("nav").on("click", function(){
-		alert("test alert for nav");
+	$("nav ul li:first-child a").on("click", function(){
+		alert("The blog is a work-in-progress and soon to come.");
 	});
 
   </script>
