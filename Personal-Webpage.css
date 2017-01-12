@@ -143,7 +143,8 @@ input, select {
 
         width: 100%;
 
-        margin: 20px 0; }
+        margin: 20px 0;
+        }
 
       nav ul {
 
@@ -165,6 +166,8 @@ input, select {
         }
 
       nav ul li a {
+
+        text-decoration: none;
 
         text-align: center;
 
@@ -206,4 +209,3 @@ input, select {
       }
     </style>
 
-    
