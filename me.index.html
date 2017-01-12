@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
 	<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<title>Sam Snider</title>
+
 
 		<style>
 			body{
@@ -50,6 +54,14 @@
 				<i>Computer Science Student</i>
 			</h2>
 
+			<nav>
+ 		    <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Info</a></li>
+          <li><a href="skills.html">Course history, skills and interests</a></li>
+        </ul>
+      </nav>
+
 			<p>
 				Problem solver.  Full time computer science and entrepreneurship student at UNC - Chapel Hill.
 				
@@ -81,4 +93,10 @@
 
 	</body>
 
-</html>
+	<script>
+
+	$("p").on("click", function(){
+		alert("test alert for nav");
+	});
+
+  </script>
