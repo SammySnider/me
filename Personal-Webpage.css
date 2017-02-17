@@ -1,4 +1,4 @@
-    <style>
+<style>
 
           /* BEGIN STYLE RESET */
 
@@ -148,24 +148,36 @@ input, select {
 
       nav ul {
 
-        list-style: none;
-
+/*        list-style: none;
+*/
         overflow: hidden;
 
-    /*    margin: 0;
+        margin: 0;
 
-        padding: 0; }   */
+        padding:0;
+
+
+/*        padding: 0; }   */
       }
 
       nav ul li {
 
-        float: left;  
+       float: left;  
 
-        width: 33%;
+       width: 33%;
 
         }
 
       nav ul li a {
+
+        border-left-style: solid;
+        border-right-style: solid;
+
+        border-left-color: black;
+        border-right-color: black;
+
+        border-left-width: 1px;
+        border-right-width: 1px;
 
         text-decoration: none;
 
