@@ -116,8 +116,19 @@ input, select {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
       body{
-        background: url('http://i.imgur.com/fp65HgS.jpg') no-repeat center center fixed; 
+        background: url('https://i.imgur.com/zXgM97A.jpg'); 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -212,12 +223,40 @@ input, select {
         font-weight: 200;
       }
 
+      img{
+        -webkit-transition: all 2s ease;
+        -moz-transition: all 2s ease;
+        -o-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+        transition: all 2s ease;
+      }
+
+      img:hover{
+        height: 140px;
+        width: 130px;
+        -webkit-filter: hue-rotate(333deg);
+
+    }
+
       .box{
         background-color: rgba(0,0,0,0.5);
         padding: 20px;
         width: 300px;
         margin: 100px auto;
         text-align: center;
+        -webkit-transition: all 3s ease;
+        -moz-transition: all 3s ease;
+        -o-transition: all 3s ease;
+        -ms-transition: all 3s ease;
+        transition: all 3s ease;
       }
+
+      .box a:hover{
+        -webkit-filter: hue-rotate(330deg);
+      }
+
+
+
+
     </style>
 
