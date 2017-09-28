@@ -1,4 +1,3 @@
-<style>
 
           /* BEGIN STYLE RESET */
 
@@ -158,74 +157,42 @@ input, select {
 
       }
 
+      .projectLinks a:hover{
+        color: lime;
+        margin-top: 5px;
+
+       }
 
 
-      nav {
-
-        width: 100%;
-
-        margin: 20px 0;
-        }
-
-      nav ul {
-
-/*        list-style: none;
-*/
+      .navbar{
+        font-size: 20px;
+        font-family: 'Helvetica Neue', Helvetica;
         overflow: hidden;
-
-        margin: 0;
-
-        padding: 40px;
-
-
-/*        padding: 0; }   */
+        background-color: rgba(0,0,0,0.5);
+        position: fixed; 
+        top: 0; 
+        margin-left: 40px;
       }
 
-      nav ul li {
+      .navbar a:hover{
+        margin-left: 5px;
+        color: lime;
+      }
 
-       float: left;  
-
-       width: 50%;
-
-        }
-
-      nav ul li a {
-
-        color: black;
-
-        border-left-style: solid;
-        border-right-style: solid;
-
-        border-left-color: black;
-        border-right-color: black;
-
-        border-left-width: 1px;
-        border-right-width: 1px;
-
-        text-decoration: none;
-
-        text-align: center;
-
-        padding: 8px 0;
-
+      .navbar a {
+        float: left;
         display: block;
-
-        width: 100%; 
-
-        background: #cdeb8e; 
-
-        background: -moz-linear-gradient(top, #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
-
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
-
-        background: -webkit-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Chrome10+,Safari5.1+ */
-
-        background: -o-linear-gradient(top, #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
-
-        background: linear-gradient(to bottom, #cdeb8e 0%,#b0ca34 100%); /* W3C, IE10+ */
-
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
-
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+        padding:0;
       }
 
 
@@ -247,6 +214,7 @@ input, select {
         height: 140px;
         width: 130px;
         -webkit-filter: hue-rotate(333deg);
+        text-decoration: none;
 
     }
 
@@ -256,19 +224,11 @@ input, select {
         width: 300px;
         margin: 100px auto;
         text-align: center;
+        text-decoration: none;
+
         -webkit-transition: all 3s ease;
         -moz-transition: all 3s ease;
         -o-transition: all 3s ease;
         -ms-transition: all 3s ease;
         transition: all 3s ease;
       }
-
-      .box a:hover{
-        -webkit-filter: hue-rotate(330deg);
-      }
-
-
-
-
-    </style>
-
